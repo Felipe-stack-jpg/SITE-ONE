@@ -97,26 +97,27 @@ img{
     text-align: center;
 }
 menu > .menu-icon{
-    float: right;
-    display: none;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 23px;
     
 }
 menu > a > i{
     color: black;
     position: absolute;
     top: 0;
-    right: 20px;
-    float: right;
+    right: 60px;
+}
+menu > a > .material-icons{
+    font-size: 30px;
 }
 @media (max-width: 768px) {
  .video-container{
     display: none;
  }
  
- menu > .menu-icon {
-    display: inline-block;
-    float: right;
-  }
+
  body{
     background-color: #acacac;
  }
@@ -143,5 +144,7 @@ menu > a > i{
 display: none;
 
 }
-
+menu > .menu-icon{
+    display: block;
+}
 }
