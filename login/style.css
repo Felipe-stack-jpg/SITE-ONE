@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #02c9c9;
+    background-image: linear-gradient(to top,#02c9c9, #353535be);
     height: 100vh;
     width: 100vw;
 }
@@ -40,12 +40,48 @@ section#login > div#formulario{
     padding: 10px;
     
 }
+form > input[type=submit] {
+    
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    height: 40px;
+    background-color: #04b1b1;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover{
+    background-color: #015c5c;
+}
+form > div.campo{
+    background-color: #07b4b4;
+    border-radius: 10px ;
+    height: 40px;
+    margin: 5px 0px;
+}
+div.campo > input{
+    background-color: #7abdbd;
+    height: 100%;
+    border-radius: 10px;
+    transform: translateY(-13px);
+    padding: 5px;
+}
+div.campo > i{
+    color: white;
+    height: 100%;
+    font-size: 2em;
+    padding: 5px;
+}
 @media (min-width: 768px) {
+    /*configuraçao para telas maiores*/
     html,body {
         background-image: linear-gradient(to top,#02c9c9, #353535be);
     }
     section#login{
         width: 990px;
+        height: 300px;
     }
     section#login > div#imagem{
         float: left;
@@ -56,6 +92,38 @@ section#login > div#formulario{
         float: right;
         width: 50%;
         
+    }
+    form > input[type=submit] {
+    
+        display: block;
+        width: 100%;
+        font-size: 1em;
+        height: 40px;
+        background-color: #04b1b1;
+        color: aliceblue;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    form > input[type=submit]:hover{
+        background-color: #015c5c;
+    }
+    #formulario > h1{
+        text-align: center;
+    }
+    form > div.campo{
+        background-color: rgb(7, 180, 180);
+        border-radius: 10px;
+        height: 40px;
+        margin: 5px 0px;
+        
+    }
+    div.campo > input{
+        background-color: #7abdbd;
+        height: 100%;
+        border-radius: 10px;
+        transform: translateY(-13px);
+        padding: 10px;
     }
 
 }
