@@ -21,9 +21,9 @@
             <h2 class="tituloP"><img class="imglogo" src="BMW_logo_(gray).svg.png"  alt="logotxt">FuhCars</h2>
      </div>
 
-       <menu>
+       <menu id="menu">
             <a href="file:///C:/Users/lipea/OneDrive/Documentos/PROJETOS/SITE-ONE/login/index.html" target="_blank"><i class="material-icons">person</i></a>
-            <span class="menu-icon"onclick="toggleMenu()">☰</span>
+            <span class="menu-icon"onclick="clickMenu()">☰</span>
             <b id="itens">
             <a class="navk" href="#">comprar</a>
             <a class="navk" href="#">vender</a>
@@ -38,6 +38,10 @@
     <div class="toyota">
         <a href="https://www.toyota.com.br/"target="_blank"><img src="toyota logo.webp" alt="toyota"></a>
     </div>
-
+    <script>
+        function clickMenu() {
+        itens.style.display = 'block'
+    }
+    </script>
 </body>
 </html>
