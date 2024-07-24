@@ -79,16 +79,9 @@ img{
     font-family: Arial, Helvetica, sans-serif;
     color: #504f4f;
     position:relative;
-    top: 600px;
+    top: 500px;
     right: 274px;
     
-}
-.bmw{
-    position:relative;
-    top: 600px;
-    right: 274px;
-    text-align: center;
-     
 }
 .toyota{
     position:relative;
@@ -136,14 +129,9 @@ menu > a > .material-icons{
 }
 .toyota{
     position:relative;
-    top: 340px;
+    top: 450px;
     right: 60px;
     
-}
-.bmw{
-    top: 450px;
-    right: 168px;
-
 }
 #itens{
     display:none;
