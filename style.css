@@ -79,13 +79,12 @@ img{
     font-family: Arial, Helvetica, sans-serif;
     color: #504f4f;
     position:relative;
-    top: 500px;
     right: 274px;
+    margin-top: auto;
     
 }
 .toyota{
     position:relative;
-    top: 490px;
     right: 168px;
     text-align: center;
 }
@@ -106,6 +105,80 @@ menu > a > i{
 menu > a > .material-icons{
     font-size: 30px;
 }
+.search-container {
+    height: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 200px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6d6d6d;
+    color: white;
+    border: 1px solid #6d6d6d;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-button:hover {
+    background-color: #161616;
+}
+footer {
+    background-color: #333;
+    color: #fffefe;
+    text-align: center;
+    padding: 20px 0;
+    height: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff6347; 
+}
+
+.social-icons .instagram:hover {
+    color: #E1306C; 
+}
+
+.social-icons .github:hover {
+    color: #0004ff;
+}
+.social-icons .linkedin:hover {
+    color: #0077b5;
+}
 @media (max-width: 768px) {
     *{
         margin: 0;
@@ -123,13 +196,11 @@ menu > a > .material-icons{
 .lojasOficiais{
     font-family: Arial, Helvetica, sans-serif;
     color: #504f4f;
-    top: 450px;
     right: 160px;
     
 }
 .toyota{
     position:relative;
-    top: 450px;
     right: 60px;
     
 }
@@ -149,5 +220,24 @@ menu > .menu-icon{
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+}
+.search-container {
+    max-width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    margin: 0;
+}
+
+.search-input {
+    font-size: 14px;
+    padding: 8px;
+}
+
+.search-button {
+    font-size: 14px;
+    padding: 8px 16px;
 }
 }
