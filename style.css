@@ -220,6 +220,7 @@ menu > .menu-icon{
     /*estilos para menus*/
 menu > .menu-icon{
     display: block;
+    cursor: pointer;
 }
 .navk{
     display: flex;
